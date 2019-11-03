@@ -39,7 +39,7 @@ header a{
 }
 header li{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 header h1 a{
     font-size: 37px;
@@ -47,11 +47,17 @@ header h1 a{
 }
 header ul a{
     font-size: 18px;
-    color: #fefefe;   
+    color: #fefefe;  
+    padding: 0 10px; 
 }
 header ul li:first-child a{
     color: #a6a6a6;   
 }
+header li:hover a{
+    color: #080d18;
+    background: rgb(238, 237, 237);
+}
+
 #profile{
     background-color: #38384b;
     height: 590px;
@@ -177,8 +183,6 @@ header ul li:first-child a{
     text-align: center;
 }
 #can-i-do ul li{
-    display:flex;
-    justify-content: space-between;
     border-bottom: solid 1px #d4d4d4;
     height: 410px;
 }
@@ -190,6 +194,12 @@ header ul li:first-child a{
     margin-top:110px;
     margin-bottom: 50px;
 }
+#can-i-do div{
+    float: left;
+}
+#can-i-do li:nth-child(2n) div{
+    float: right;
+}
 #can-i-do p{
     font-size: 20px;
     line-height: 33px;
@@ -197,10 +207,14 @@ header ul li:first-child a{
     width: 635px;
 }
 #can-i-do span{
-    display: inline-block;
+    float: right;
+    display: block;
     height: 410px;
     line-height: 410px;
     position: relative;
+}
+#can-i-do li:nth-child(2n) span{
+    float: left;
 }
 #can-i-do img{
     display: inline-block;
