@@ -1,0 +1,327 @@
+@font-face {
+    font-family:"roboto";
+    src:url("fonts/roboto-medium.ttf");
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background: white;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 76px;
+    background-image: linear-gradient(to bottom,#0a101b,#0e151f);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    color: white;
+    display: inline-block;
+    height: 76px;
+    line-height: 76px;
+}
+header li{
+    display: inline-block;
+    margin-left: 40px;
+}
+header h1 a{
+    font-size: 37px;
+    letter-spacing: 1px;    
+}
+header ul a{
+    font-size: 18px;
+    color: #fefefe;   
+}
+header ul li:first-child a{
+    color: #a6a6a6;   
+}
+#profile{
+    background-color: #38384b;
+    height: 590px;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+#profile .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top:120px;
+}
+#profile>div>img{
+    width: 272px;
+}
+#profile>div>div{
+    width: 730px;
+}
+#profile h1{
+    font-size: 37px;
+    line-height: 34px;
+    color: white;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#profile h2{
+    font-size: 23px;
+    line-height: 34px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 19px;
+}
+#profile p{
+    font-size: 17px;
+    line-height: 32px;
+    color: white;
+}
+#links{
+    margin-top:35px;
+    display: flex;
+    justify-content: right;
+}
+#links a{
+    display: inline-block;
+    margin-right: 15px;
+}
+#links a:first-child{
+    background-color: #c9c9c9;
+    color:#2e2e2e;
+    padding: 0 55px;
+    font-size: 21px;
+    line-height: 56px;
+    height: 56px;
+    margin-right: 22px;
+}
+#aboutme{
+    text-align: center;
+    height: 440px;
+}
+#aboutme h2{
+    font-size: 45px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 45px;
+    margin-top: 75px;
+    margin-bottom: 84px;
+}
+#aboutme div{
+    display: flex;
+    justify-content: space-between;
+}
+#aboutme p{
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    max-width: 875px;
+}
+#aboutme button{
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    border: none;
+}
+#aboutme button:first-child{
+    background: url("images/prev.png") no-repeat;
+}
+#aboutme button:last-child{
+    background: url("images/next.png") no-repeat;
+}
+
+#im-everywhere{
+    background-color: #eeeeee;
+    padding-top: 85px;
+    height: 560px;
+}
+#im-everywhere h2{
+    font-size: 45px;
+    line-height: 34px;
+    color: #080808;
+    font-weight: normal;
+    margin-bottom: 82px;
+    text-align: center;
+}
+#im-everywhere ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#im-everywhere li{
+    background-color: #2c2c2c;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+#im-everywhere a{
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    width: 350px;
+    height: 88px;
+    line-height: 88px;
+    text-align: center;
+}
+#can-i-do ul li{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #d4d4d4;
+    height: 410px;
+}
+#can-i-do h3{
+    font-size: 40px;
+    line-height: 33px;
+    color: #000000;
+    font-weight: normal;
+    margin-top:110px;
+    margin-bottom: 50px;
+}
+#can-i-do p{
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+    width: 635px;
+}
+#can-i-do span{
+    display: inline-block;
+    height: 410px;
+    line-height: 410px;
+    position: relative;
+}
+#can-i-do img{
+    display: inline-block;
+    position: absolute;
+    transform: translate(0%, -50%);
+    top:50%;
+}
+#can-i-do li:nth-child(2n+1) img{
+    right: 0%;
+}
+#can-i-do a{
+   color:#00527d;
+}
+#pictures{
+    background-color: #597f97;
+    height: 740px;
+}
+#pictures .container{
+    text-align: center;
+    padding-top:104px;
+}
+#pictures h2{
+    font-size: 45px;
+    line-height: 33px;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+#pictures h3{
+    font-size: 20px;
+    line-height: 33px;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+#pictures ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#pictures li{
+    margin-bottom: 35px;
+}
+#connectme {
+    height: 615px;
+}
+#connectme h2{
+    font-size: 45px;
+    color: #000000;
+    line-height: 45px;
+    text-align: center;
+    margin-top:65px;
+    margin-bottom: 55px;
+}
+#connectme div{    
+    display: flex;
+    justify-content: space-between;
+}
+#connectme li{
+    margin-bottom: 22px;
+}
+#connectme a{
+    font-size: 20px;
+    color: #010101;
+    line-height:32px;
+    display: inline-block;
+    height: 32px;
+    padding-left:44px;
+}
+#connectme li:nth-child(1) a{
+    background: url("images/mail.png") no-repeat left;
+}
+#connectme li:nth-child(2) a{
+    background: url("images/phone.png") no-repeat left;
+}
+#connectme li:nth-child(3) a{
+    background: url("images/insta.png") no-repeat left;
+}
+#connectme li:nth-child(4) a{
+    background: url("images/fb.png") no-repeat left;
+}
+
+footer{
+    background-color: #2b2b2b;
+    height: 380px;
+    position: relative;
+}
+footer .container{    
+    display: flex;
+    justify-content: left;
+    padding-top: 65px;
+}
+footer ul{
+    width: 350px;
+    margin-right: 30px;
+}
+footer li{
+    margin-bottom: 20px;
+}
+footer li:first-child{
+    margin-bottom: 30px;
+}
+footer li a{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 16px;
+}
+footer li:first-child a{
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom:12px;
+    border-bottom: solid 1px #777777;
+}
+
+footer>a{
+    position: absolute;
+    top: 90%;
+    right: 20px;
+    color: #f97171;
+    display: inline-block;
+    font-style: italic;
+    font-size: 16px;
+}
+footer span{
+    color: #0d90f7;
+}
